@@ -5,6 +5,7 @@ body {
 
 h1 {
     text-align: center;
+
 }
 
 header {
@@ -139,7 +140,7 @@ main {
 
 /* Caption text */
 .text {
-  color: black;
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -150,7 +151,7 @@ main {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
