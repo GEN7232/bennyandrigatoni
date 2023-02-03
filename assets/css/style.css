@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 h1 {
     text-align: center
 }
@@ -7,27 +12,86 @@ header {
     padding-bottom: 2%;
     background-color: aqua;
     border: 2px solid black;
+    width: 100%;
 }
 
+aside {
+    width: 12%;
+    height: 100%;
+    position: fixed;
+}
 
 .wrapper {
     display: flex;
-    width: 10%;
-    height: 100%;
+    width: 100%;
     align-items: stretch;
+    height: 100%;
     border: 2px solid black;
+
 }
 
 #sidebar {
+    padding-left: 10%;
+    padding-top: 10%;
     width: 100%;
     background: aqua;
     color: black;
-    transition: all 0.3s;
 }
 
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
+    color: black
+}
+
+#icons {
+    height: 25%;
+}
+
+
+i {
     color: black;
-    display: block;
+}
+
+#insta{
+    padding-left: 2%;
+}
+
+#tik{
+    padding-left: 12%;
+}
+
+#insta:hover {
+    transform: scale(1.5);
+}
+
+#tik:hover {
+    transform: scale(1.5);
+} 
+
+li a:link{
+    text-decoration: none;
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: none;   
+    color: white;
+}
+
+li a:active{
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    width: 100%;
+}
+
+#content {
+    position: relative;
+    text-align: center;
 }
