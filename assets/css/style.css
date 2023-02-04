@@ -124,3 +124,9 @@ main {
     margin-top: -50%;
 }
 
+.carousel-indicators {
+    width: 20%;
+    margin-left: -10%;
+
+
+}
